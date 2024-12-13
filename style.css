@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+.navbar{
+    padding: 5px !important; 
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(250, 250, 252, .8);
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 42px;
+    justify-content: center;
+    margin-top: 8px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.navbar li{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+#offer{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.hero-video {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Prevents any overflow from the video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-video video {
+    width: 100%;
+    height: 575px;
+    object-fit: cover; /* Ensures the video fills the space without distortion */
+}
